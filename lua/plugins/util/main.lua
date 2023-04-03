@@ -29,6 +29,7 @@ return {
 	{ "windwp/nvim-ts-autotag" }, -- typescript tags
 	{ "akinsho/toggleterm.nvim" }, -- terminal
 	{ "folke/persistence.nvim" }, -- session managements
+	{ "numToStr/Comment.nvim" }, -- comments
 
 
 	---- syntax
