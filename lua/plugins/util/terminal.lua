@@ -3,7 +3,7 @@ return {
 		"akinsho/toggleterm.nvim",
 		opts = {},
 		keys = {
-			{  "<c-w>t", "<cmd>exe v:count1 . \"ToggleTerm\"<CR>i", desc = "toggle Terminal", mode = {"n"} },
+			{  "<c-w>t", "<cmd>exe v:count1 . \"ToggleTerm\"<CR>", desc = "toggle Terminal", mode = {"n"} },
 			{  "<leader>th",
 				-- terminal horizontal
 				"<cmd>exe v:count1 . \"ToggleTerm direction=horizontal\"<CR>i",

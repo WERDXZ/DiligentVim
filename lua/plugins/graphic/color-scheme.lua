@@ -11,11 +11,11 @@ return {
 	},
 	{
 		"catppuccin/nvim",
-		lazy = true,
+		lazy = false,
 	},
 	{
 		"jacoborus/tender.vim",
-		lazy = true,
+		lazy = false,
 	}
 
 }

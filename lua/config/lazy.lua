@@ -1,20 +1,13 @@
 require("config.bootstrap")
 require("lazy").setup({
 	spec = {
-		-- add LazyVim and import its plugins
-		{ "LazyVim/LazyVim", --[[import = "lazyvim.plugins"]] },
-		-- import any extras modules here
-		-- { import = "lazyvim.plugins.extras.lang.typescript" },
-		-- { import = "lazyvim.plugins.extras.lang.json" },
-		-- { import = "lazyvim.plugins.extras.coding.copilot" },
-		-- import/override with your plugins
 		{ import = "plugins" },
 		{ import = "plugins.lib" },
 		{ import = "plugins.util" },
 		{ import = "plugins.graphic" },
 		{ import = "plugins.experimental" },
 		{ import = "plugins.dependent" },
-		{ import = "plugins.package"}
+		{ import = "plugins.package" }
 	},
 	dev = {
 		path = "~/projects/lua/",

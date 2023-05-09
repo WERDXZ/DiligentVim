@@ -9,5 +9,8 @@ return {
 	{ "lukas-reineke/indent-blankline.nvim" }, -- indent lines
 	{ "nvim-lualine/lualine.nvim"}, -- status line
 	{ "lewis6991/gitsigns.nvim"}, -- gitsigns
-	{ "goolord/alpha-nvim"},
+	{ "goolord/alpha-nvim",
+		branch = "main",
+		commit = "eaeb20d",
+	},
 }

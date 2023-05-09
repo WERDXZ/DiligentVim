@@ -35,5 +35,11 @@ return {
 	---- syntax
 	{ "nvim-treesitter/nvim-treesitter"}, -- syntax highlighting
 
+	---- dap 
+	{"mfussenegger/nvim-dap"},
+	{"theHamsta/nvim-dap-virtual-text"},
+	{"rcarriga/nvim-dap-ui"},
+	{"jay-babu/mason-nvim-dap.nvim"},
+
 	---- other
 }

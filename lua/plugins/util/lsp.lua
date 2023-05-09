@@ -43,6 +43,14 @@ return {
 						callSnippet = "Replace",
 					},
 				},
+				eslint = {
+					filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+					root_dir = function(fname)
+						return require("lspconfig").util.root_pattern("package.json", ".git")(fname)
+							or require("lspconfig").util.find_git_ancestor(fname)
+							or vim.loop.os_homedir()
+					end,
+				},
 			},
 		},
 		config = function(_, opts)
