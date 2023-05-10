@@ -2,11 +2,6 @@ return {
 	{
 		"mfussenegger/nvim-dap",
 		event = "VeryLazy",
-		dependencies = {
-			"rcarriga/nvim-dap-ui",
-			"theHamsta/nvim-dap-virtual-text",
-			"jay-babu/mason-nvim-dap.nvim",
-		},
 		keys = {
 			{ "<leader>db", "<cmd>DapToggleBreakpoint<CR>", desc = "toggle breakpoint", mode = { "n" } },
 			{ "<leader>dc", "<cmd>DapContinue<CR>",         desc = "continue",          mode = { "n" } },

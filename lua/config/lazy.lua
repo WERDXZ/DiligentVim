@@ -1,4 +1,7 @@
 require("config.bootstrap")
+require("config.keymaps")
+require("config.autocmds")
+require("config.options")
 require("lazy").setup({
 	spec = {
 		{ import = "plugins" },
