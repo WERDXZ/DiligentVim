@@ -4,7 +4,7 @@ return {
 		cmd = "Mason",
 		keys = {
 			{ "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" },
-			{ "<c-w>m",     "<cmd>mason<cr>", desc = "Mason" },
+			{ "<c-w>m",     "<cmd>Mason<cr>", desc = "Mason" },
 		},
 		opts = {
 			ensure_installed = {

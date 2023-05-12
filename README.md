@@ -6,6 +6,8 @@ This is my NeoVim configuration based on [NeoVim](https://neovim.io/). Click [he
 
 Before installing, make sure to install a terminal with true color support (such as iTerm2), or else it will look very ugly.
 
+Also, you might also need to install a [Nerd font](https://www.nerdfonts.com/) to show coding icons.
+
 First, archive your configuration:
 ```bash
 # for MacOS or Linux
