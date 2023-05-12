@@ -1,9 +1,20 @@
 return {
-	"mfussenegger/nvim-dap",
-	dependencies = {
+	{
+		"mfussenegger/nvim-dap",
+		dependencies = {
+			"williamboman/mason.nvim",
+		},
+	},
+	{
 		"rcarriga/nvim-dap-ui",
+		dependencies = {
+			"mfussenegger/nvim-dap",
+		},
+	},
+	{
 		"theHamsta/nvim-dap-virtual-text",
-		"jay-babu/mason-nvim-dap.nvim",
-		"Pocco81/DAPInstall.nvim",
+		dependencies = {
+			"mfussenegger/nvim-dap",
+		},
 	},
 }

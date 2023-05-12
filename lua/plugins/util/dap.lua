@@ -1,7 +1,7 @@
 return {
 	{
 		"mfussenegger/nvim-dap",
-		event = "VeryLazy",
+		event = { "BufReadPre", "BufNewFile" },
 		keys = {
 			{ "<leader>db", "<cmd>DapToggleBreakpoint<CR>", desc = "toggle breakpoint", mode = { "n" } },
 			{ "<leader>dc", "<cmd>DapContinue<CR>",         desc = "continue",          mode = { "n" } },
@@ -10,14 +10,7 @@ return {
 			{ "<leader>dT", "<cmd>DapTerminate<CR>",        desc = "stop dap",          mode = { "n" } },
 		},
 	},
-	{
-		"jay-babu/mason-nvim-dap.nvim",
-		config = function(_, _)
-			require("mason-nvim-dap").setup({
-				handlers = {},
-			})
-		end,
-	},
+
 	{
 		"rcarriga/nvim-dap-ui",
 		keys = {

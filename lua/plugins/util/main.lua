@@ -41,5 +41,10 @@ return {
 	{"rcarriga/nvim-dap-ui"},
 	{"jay-babu/mason-nvim-dap.nvim"},
 
+	---- assistants
+	{"zbirenbaum/copilot.lua"},
+	{"jackMort/ChatGPT.nvim"},
+
+
 	---- other
 }
