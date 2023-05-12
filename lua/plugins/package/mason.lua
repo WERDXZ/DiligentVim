@@ -1,9 +1,14 @@
 return {
 	{
-		"williamboman/mason.nvim",
+		"williamboman/mason-lspconfig.nvim",
 		dependencies = {
-			"williamboman/mason-lspconfig.nvim",
-			"jay-babu/mason-nvim-dap.nvim",
+			"williamboman/mason.nvim",
+		},
+	},
+	{
+		"jay-babu/mason-nvim-dap.nvim",
+		dependencies = {
+			"williamboman/mason.nvim",
 		},
 	},
 }
