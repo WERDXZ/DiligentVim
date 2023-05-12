@@ -141,7 +141,7 @@ return {
 	},
 	{
 		"folke/noice.nvim",
-		event = "VeryLazy",
+		event = "VimEnter",
 		opts = {
 			lsp = {
 				override = {
